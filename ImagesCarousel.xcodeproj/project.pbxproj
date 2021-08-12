@@ -15,6 +15,8 @@
 		977E0E4E26C3FFEF00253AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 977E0E4C26C3FFEF00253AE2 /* LaunchScreen.storyboard */; };
 		977E0E5926C3FFEF00253AE2 /* ImagesCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0E5826C3FFEF00253AE2 /* ImagesCarouselTests.swift */; };
 		977E0E6426C3FFEF00253AE2 /* ImagesCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0E6326C3FFEF00253AE2 /* ImagesCarouselUITests.swift */; };
+		977E0E7326C43D5200253AE2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0E7226C43D5200253AE2 /* TableViewCell.swift */; };
+		977E0E7526C43D7600253AE2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E0E7426C43D7600253AE2 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		977E0E5F26C3FFEF00253AE2 /* ImagesCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagesCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		977E0E6326C3FFEF00253AE2 /* ImagesCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCarouselUITests.swift; sourceTree = "<group>"; };
 		977E0E6526C3FFEF00253AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		977E0E7226C43D5200253AE2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		977E0E7426C43D7600253AE2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		977E0E4026C3FFEE00253AE2 /* ImagesCarousel */ = {
 			isa = PBXGroup;
 			children = (
+				977E0E7126C43CDE00253AE2 /* Cells */,
 				977E0E4126C3FFEE00253AE2 /* AppDelegate.swift */,
 				977E0E4326C3FFEE00253AE2 /* SceneDelegate.swift */,
 				977E0E4526C3FFEE00253AE2 /* ViewController.swift */,
@@ -126,6 +131,15 @@
 				977E0E6526C3FFEF00253AE2 /* Info.plist */,
 			);
 			path = ImagesCarouselUITests;
+			sourceTree = "<group>";
+		};
+		977E0E7126C43CDE00253AE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				977E0E7226C43D5200253AE2 /* TableViewCell.swift */,
+				977E0E7426C43D7600253AE2 /* CollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				977E0E7526C43D7600253AE2 /* CollectionViewCell.swift in Sources */,
 				977E0E4626C3FFEE00253AE2 /* ViewController.swift in Sources */,
+				977E0E7326C43D5200253AE2 /* TableViewCell.swift in Sources */,
 				977E0E4226C3FFEE00253AE2 /* AppDelegate.swift in Sources */,
 				977E0E4426C3FFEE00253AE2 /* SceneDelegate.swift in Sources */,
 			);
